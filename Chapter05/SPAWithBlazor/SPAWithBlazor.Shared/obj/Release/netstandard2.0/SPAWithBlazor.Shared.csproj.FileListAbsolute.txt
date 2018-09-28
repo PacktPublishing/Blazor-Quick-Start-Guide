@@ -1,0 +1,9 @@
+C:\BlazorProjects\Chap5\SPAWithBlazor\SPAWithBlazor.Shared\bin\Release\netstandard2.0\SPAWithBlazor.Shared.deps.json
+C:\BlazorProjects\Chap5\SPAWithBlazor\SPAWithBlazor.Shared\bin\Release\netstandard2.0\SPAWithBlazor.Shared.dll
+C:\BlazorProjects\Chap5\SPAWithBlazor\SPAWithBlazor.Shared\bin\Release\netstandard2.0\SPAWithBlazor.Shared.pdb
+C:\BlazorProjects\Chap5\SPAWithBlazor\SPAWithBlazor.Shared\obj\Release\netstandard2.0\SPAWithBlazor.Shared.csprojAssemblyReference.cache
+C:\BlazorProjects\Chap5\SPAWithBlazor\SPAWithBlazor.Shared\obj\Release\netstandard2.0\SPAWithBlazor.Shared.csproj.CoreCompileInputs.cache
+C:\BlazorProjects\Chap5\SPAWithBlazor\SPAWithBlazor.Shared\obj\Release\netstandard2.0\SPAWithBlazor.Shared.AssemblyInfoInputs.cache
+C:\BlazorProjects\Chap5\SPAWithBlazor\SPAWithBlazor.Shared\obj\Release\netstandard2.0\SPAWithBlazor.Shared.AssemblyInfo.cs
+C:\BlazorProjects\Chap5\SPAWithBlazor\SPAWithBlazor.Shared\obj\Release\netstandard2.0\SPAWithBlazor.Shared.dll
+C:\BlazorProjects\Chap5\SPAWithBlazor\SPAWithBlazor.Shared\obj\Release\netstandard2.0\SPAWithBlazor.Shared.pdb

@@ -1,0 +1,13 @@
+C:\BlazorProjects\Chap2\BlazorDemo\obj\Debug\netstandard2.0\blazor\linker\BlazorDemo.dll
+C:\BlazorProjects\Chap2\BlazorDemo\obj\Debug\netstandard2.0\blazor\linker\Microsoft.AspNetCore.Blazor.Browser.dll
+C:\BlazorProjects\Chap2\BlazorDemo\obj\Debug\netstandard2.0\blazor\linker\Microsoft.AspNetCore.Blazor.dll
+C:\BlazorProjects\Chap2\BlazorDemo\obj\Debug\netstandard2.0\blazor\linker\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\BlazorProjects\Chap2\BlazorDemo\obj\Debug\netstandard2.0\blazor\linker\Microsoft.Extensions.DependencyInjection.dll
+C:\BlazorProjects\Chap2\BlazorDemo\obj\Debug\netstandard2.0\blazor\linker\Microsoft.JSInterop.dll
+C:\BlazorProjects\Chap2\BlazorDemo\obj\Debug\netstandard2.0\blazor\linker\Mono.WebAssembly.Interop.dll
+C:\BlazorProjects\Chap2\BlazorDemo\obj\Debug\netstandard2.0\blazor\linker\mscorlib.dll
+C:\BlazorProjects\Chap2\BlazorDemo\obj\Debug\netstandard2.0\blazor\linker\netstandard.dll
+C:\BlazorProjects\Chap2\BlazorDemo\obj\Debug\netstandard2.0\blazor\linker\System.Core.dll
+C:\BlazorProjects\Chap2\BlazorDemo\obj\Debug\netstandard2.0\blazor\linker\System.dll
+C:\BlazorProjects\Chap2\BlazorDemo\obj\Debug\netstandard2.0\blazor\linker\System.Net.Http.dll
+C:\BlazorProjects\Chap2\BlazorDemo\obj\Debug\netstandard2.0\blazor\linker\BlazorDemo.pdb

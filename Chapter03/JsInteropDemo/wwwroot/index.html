@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>JsInteropDemo</title>
+    <base href="/" />
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid.min.css" />
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid-theme.min.css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid.min.js"></script>
+
+</head>
+
+<body>
+    <app>Loading...</app>
+
+    <script src="_framework/blazor.webassembly.js"></script>
+
+    <script>
+        function showAlertBox() {
+            alert("I am invoked from .NET");
+        }
+
+        function showPrompt(message) {
+            alert("You enter : " + message);
+        }
+    </script>
+    <script>
+        function showValue(element) {
+            alert(element.value);
+        }
+    </script>
+    <script>
+        function callCSFunction() {
+            DotNet.invokeMethodAsync('JsInteropDemo', 'CSCallBackMethodAsync');
+        }
+    </script>
+    <script>
+        function callInstanceMethod(dotnetHelper) {
+            return dotnetHelper.invokeMethodAsync('showMessege')
+                .then(r => alert(r));
+        }
+    </script>
+<script>
+    function showJsGrid() {
+
+        var clients = [
+            { "Name": "Harry", "Age": 28, "Country": "Canada", "Married": false },
+            { "Name": "Johny", "Age": 35, "Country": "France", "Married": true },
+            { "Name": "Leena", "Age": 39, "Country": "USA", "Married": false },
+            { "Name": "Rohit", "Age": 26, "Country": "India", "Married": true },
+            { "Name": "Diana", "Age": 32, "Country": "Scotland", "Married": false }
+        ];
+
+        $("#dataGrid").jsGrid({
+            width: "500px",
+            height: "210px",
+            sorting: true,
+            paging: true,
+            pageSize: 3,
+            pageButtonCount: 3,
+
+            data: clients,
+
+            fields: [
+                { name: "Name", type: "text", width: 100},
+                { name: "Age", type: "number", width: 50 },
+                { name: "Country", type: "text", width: 100 },
+                { name: "Married", type: "checkbox", title: "Is Married", sorting: false }
+            ]
+        });
+    }
+</script>
+           
+</body>
+
+</html>

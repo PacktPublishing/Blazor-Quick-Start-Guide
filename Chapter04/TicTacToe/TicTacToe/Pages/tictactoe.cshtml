@@ -1,0 +1,38 @@
+﻿@page "/tic-tac-toe"
+@inherits tictactoeModel
+
+<h1>Tic-Tac-Toe Using Blazor</h1>
+
+<hr />
+
+<div class="container" style="background-color:slategray; border:1px solid black; width:225px">
+
+    @foreach (int row in gameBoard)
+    {
+        <div>
+            @foreach (int col in gameBoard)
+            {
+                <button class="btn btn-default" style="width:50px;height:50px;margin: 5px;"
+                        onclick=@(() => SetCellValue(row,col))>
+                    @cellValue[row, col]
+                </button>
+
+            }
+        </div>
+    }
+</div>
+<br />
+<div style="text-align:center;">
+    <button class="btn btn-info col-sm-3 col-md-3" onclick="@ResetGame">Reset</button>
+</div>
+
+<hr />
+
+@if (!win)
+{
+    <strong>Player '@currentPlayer' turn.</strong>
+}
+else
+{
+    <strong>Player '@winner' has won the game.</strong>
+}

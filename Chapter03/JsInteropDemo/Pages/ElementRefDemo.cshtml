@@ -1,0 +1,8 @@
+@page "/elementrefdemo"
+@inherits ElementRefDemoModel
+
+<h2>Capturing references to HTML elements</h2>
+<hr/>
+
+<input class="col-sm-3" type="text" ref="inputRef"/>
+<button class="btn btn-default" onclick="@getInputValue">Get Value</button>

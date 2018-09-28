@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="SPAWithBlazor" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\BlazorProjects\\Chap5\\SPAWithBlazor\\SPAWithBlazor\.Server\\obj\\Release\\netcoreapp2\.1\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

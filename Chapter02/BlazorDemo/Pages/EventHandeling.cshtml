@@ -1,0 +1,33 @@
+@page "/eventhandeling"
+
+<h1>Event Handeling example</h1>
+<hr />
+
+<div>
+    <button class="btn" onclick="@ButtonClicked">
+        Click me
+    </button>
+</div>
+<br />
+<select class="form-control col-md-4" onchange="@SelectGender">
+    <option value="">-- Select Gender --</option>
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+</select>
+<br />
+<p>Selected Gender : @Gender </p>
+
+@functions{
+
+    string Gender { get; set; }
+
+    void ButtonClicked(UIMouseEventArgs e)
+    {
+        Console.WriteLine("button clicked");
+    }
+
+    void SelectGender(UIChangeEventArgs e)
+    {
+        Gender = e.Value.ToString();
+    }
+}

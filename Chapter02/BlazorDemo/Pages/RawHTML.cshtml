@@ -1,0 +1,10 @@
+@page "/renderhtml"
+
+<h1>Raw HTML Rendering in Blazor</h1>
+<hr />
+
+@((MarkupString)customHTML)
+
+@functions {
+string customHTML = "<p>This is a <strong>custom HTML</strong> code</p>";
+}
