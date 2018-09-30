@@ -10,7 +10,7 @@ namespace SPAWithBlazor.Server.DataAccess
 {
     public class DataAccessWithADO
     {
-        private string _connectionString = "Data Source=IN01N01079\\SQLEXPRESS;Initial Catalog=EmployeeDB;Persist Security Info=True;Integrated Security = true";
+        private string _connectionString = "Data Source=SQLServer\\SQLEXPRESS;Initial Catalog=EmployeeDB;User Id=dbuser; Password=12345;";
 
         public List<Employee> GetAllEmployees()
         {
