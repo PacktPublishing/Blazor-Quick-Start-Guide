@@ -24,7 +24,7 @@ namespace SPAWithBlazor.Shared.Models
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
 
-                optionsBuilder.UseSqlServer("Data Source=SQLServer\\SQLEXPRESS;Initial Catalog=EmployeeDB;User Id=ankit; Password=sa;");
+                optionsBuilder.UseSqlServer("Data Source=SQLServer\\SQLEXPRESS;Initial Catalog=EmployeeDB;User Id=dbuser; Password=12345;");
             }
         }
 
