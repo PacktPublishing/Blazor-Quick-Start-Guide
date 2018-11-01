@@ -1,15 +1,20 @@
-# 
+# Blazor Quick Start Guide
 
-<a href="https://www.packtpub.com/web-development/blazor-quick-start-guide?utm_source=github&utm_medium=repository&utm_campaign="><img src="" alt="" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/web-development/blazor-quick-start-guide?utm_source=github&utm_medium=repository&utm_campaign=9781789344141"><img src="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/11326_cover.png" alt="Blazor Quick Start Guide" height="256px" align="right"></a>
 
-This is the code repository for [](https://www.packtpub.com/web-development/blazor-quick-start-guide?utm_source=github&utm_medium=repository&utm_campaign=), published by Packt.
+This is the code repository for [Blazor Quick Start Guide](https://www.packtpub.com/web-development/blazor-quick-start-guide?utm_source=github&utm_medium=repository&utm_campaign=9781789344141), published by Packt.
 
 **Build web applications using Blazor, EF Core, and SQL Server**
 
 ## What is this book about?
-0
+Blazor is an open source .NET web framework based on C#, Razor, and HTML that runs in the browser with WebAssembly. It simplifies web development by allowing us to write .NET-based web apps that run client-side in web browsers. We can take advantage of our existing knowledge of C# to write both client - side and server-side applications, and have a full stack .NET development experience.
 
 This book covers the following exciting features:
+* Familiarize yourself with the core concepts of Blazor
+* Develop applications with Blazor
+* Blazor applications with Visual Studio code and Command Line Interface (CLI)
+* Create a Tic-Tac-Toe game with Blazor
+* Design and build a calculator app with Blazor
 
 
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/178934414X) today!
