@@ -59,9 +59,6 @@ Click on the following link to see the Code in Action:
 
 * Learn WebAssembly [[Packt]](https://www.packtpub.com/web-development/learn-webassembly?utm_source=github&utm_medium=repository&utm_campaign=9781788997379 ) [[Amazon]](https://www.amazon.com/dp/B07HQKD16Q)
 
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
-
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
 
 ## Get to Know the Author
 **Ankit Sharma**
